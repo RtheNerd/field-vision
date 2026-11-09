@@ -2,6 +2,8 @@
 
 **Reads the whole field. Plays for the goal. No wasted runs.**
 
+Quick install — Claude Code: `/plugin marketplace add RtheNerd/field-vision` · Codex: `codex plugin marketplace add RtheNerd/field-vision` · Claude app and ChatGPT: see [Install](#install).
+
 Tunnel vision is an AI agent staring at the ball — the task in front of it — while the game is lost: it forgets what the project is for, breaks premises it never looked up, and runs hard in directions nobody needed. Field Vision is a skill that keeps the whole field in view.
 
 ## Where it comes from
