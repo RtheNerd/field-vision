@@ -1,0 +1,5 @@
+interface:
+  display_name: "Field Vision"
+  short_description: "Reads the whole field. Plays for the goal. No wasted runs."
+policy:
+  allow_implicit_invocation: true

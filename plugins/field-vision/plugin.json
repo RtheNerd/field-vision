@@ -1,0 +1,31 @@
+{
+  "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
+  "name": "field-vision",
+  "version": "1.0.0",
+  "description": "Field Vision \u2014 Reads the whole field. Plays for the goal. No wasted runs. Working discipline that keeps an AI agent from getting buried in the task in front of it, losing sight of the project goal, or doing work nobody needs. Built from 596 real messages in which a user lost patience with their agents.",
+  "author": {
+    "name": "RXAI Creative"
+  },
+  "keywords": [
+    "agent",
+    "discipline",
+    "goal",
+    "verification",
+    "root-cause"
+  ],
+  "extensions": {
+    "com.openai": {
+      "interface": {
+        "displayName": "Field Vision",
+        "shortDescription": "Reads the whole field. Plays for the goal. No wasted runs.",
+        "longDescription": "Tunnel vision is an agent staring at the ball \u2014 the task in front of it \u2014 while the game is lost. Field Vision keeps the whole field in view: the project's goal and non-negotiable premises come first, problems are pulled out by the root instead of patched, and no effort goes into runs that don't serve the goal. Built from the 596 messages in which one real user lost patience with their AI agents over five weeks.",
+        "developerName": "RXAI Creative",
+        "category": "Productivity",
+        "defaultPrompt": [
+          "Use Field Vision: before starting, state this task's goal and the premises that must never be compromised.",
+          "Use Field Vision to check the report I'm about to send."
+        ]
+      }
+    }
+  }
+}

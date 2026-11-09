@@ -1,0 +1,14 @@
+{
+  "name": "rxai",
+  "owner": {
+    "name": "RXAI Creative"
+  },
+  "description": "Skills and plugins for AI agents from RXAI Creative, built from real-world use",
+  "plugins": [
+    {
+      "name": "field-vision",
+      "source": "./plugins/field-vision",
+      "description": "Field Vision \u2014 Reads the whole field. Plays for the goal. No wasted runs."
+    }
+  ]
+}
