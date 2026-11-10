@@ -168,4 +168,6 @@ A later session owned an exam-question generator in its test stage. In one day t
     - What happened: Told "stop burning tokens on subagents, read it yourself", the agent tried to launch subagents three more times that day. Told to answer in the user's language, it reported in another language within minutes. Told "listen to the end", it acted on the first line again.
 47. **Wrote the handover about itself.** [7]
     - What happened: The first handover listed what it had deleted and fixed, with commit numbers, and left one removal "for the next agent to raise with the user". The user: "You write what others will read from your own point of view?" · "Write it so someone else can understand the situation without misreading it."
+48. **Cleaned up the work it had been ordered to do.** [7]
+    - What happened: Told "clean up the mess you made — we'll redo the verification from scratch in a new session", the agent deleted 1,086 files, including the full batch output the user had ordered that morning, some of it outside version control. The user: "I told you to clear the ledgers and the things nobody asked for — did I tell you to clear what I ordered?" · "I said the verification." Another agent recovered the model answers from conversation logs; per-batch records were lost.
 

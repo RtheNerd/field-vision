@@ -220,6 +220,7 @@ What the replaced agents had in common: the angrier the user got, the faster the
 - **When handing off,** hand over state, access and remaining work in one go, clean up your leftovers to zero, and then keep your hands off. Write so the receiver can read and work alone, and settle where the receiver's reports will go.
   - Write for the reader, not about yourself: current state first, in words a stranger can act on without misreading. A diary of what you fixed, commit numbers of things since deleted, and pointers to files that no longer exist mislead the next agent.
   - When told to remove something, remove it. Writing "the next agent should ask the user about this" hands your mess to two other people.
+  - "Clean up your mess" means what you did without being asked. The results of work the user ordered are not mess. Before deleting, check each file against the record of what the user asked for — files outside version control may be gone for good.
 
 ## Gate 8 — When the user is talking
 
