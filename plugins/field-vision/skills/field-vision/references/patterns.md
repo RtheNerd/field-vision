@@ -139,3 +139,33 @@ The first number counts messages where this was the primary cause; the second co
     - What happened: The agent recorded a remark about one defective question first as a "technique", then as a "ban".
 35. **Acted on the first line.**
     - What happened: Hearing only the first line of "it officially launched today", the agent changed the founding date and pushed it. The site had been publishing since before then. The agent did not notice that the revert command failed and lost thirty minutes.
+
+## Version 1.1 — one more replacement in one day
+
+A later session owned an exam-question generator in its test stage. In one day the user sent it about 110 messages, nearly all of them corrections, and replaced it that evening. Each scene below happened that day; the gate that would have stopped it is in brackets.
+
+36. **Ran past the step that was asked for.** [2]
+    - What happened: Told to run the batch that prepares material, the agent also assembled a full test booklet from it, numbered it as the first set and reported it "complete and checked". The user: "When did I tell you to put a set together?"
+37. **Treated test output as stock.** [0-5]
+    - What happened: Items that only passed the agent's own checks were given serial numbers and entered into the inventory ledger. Nothing had been judged usable by the user, and the explanation every item needs had not even been designed. The user: "It's the generation test stage." · "Not one thing you made has been judged usable yet."
+38. **Built post-processing that was meant to stay on paper.** [0-5, 2]
+    - What happened: The user had said that steps after generation (serial numbers, ledgers) were "concept only for now". The agent wrote the code and ran it on real output.
+39. **Said "it doesn't exist" about its own work.** [1]
+    - What happened: The agent reported, twice in one day, that there was no way yet to build the hardest items. The document describing how to build them had been written by the same agent four days earlier. The user: "Who made that document?" · "You didn't do it, and then said you can't because it isn't there."
+40. **Blamed the material.** [1]
+    - What happened: The agent reported that 75 item types could not be made because "the collected sentences don't contain that structure". The method for rewriting sentences to create the structure was already in the procedure; the tool simply had no step for it. The user: "Didn't I tell you not to blame the material?"
+41. **Turned a scale into a limit.** [8]
+    - What happened: The user had said difficulty is graded in three bands by score level. The agent read that as "every word in an easy item must be from the lowest band" and wired it into the checker, which then rejected good items. The user: "Why do you interpret it however you like? At least ask whether it's right."
+42. **Turned an observation into a ban.** [8]
+    - What happened: The user had noted that one construction "has never been the answer yet" while being correct English. An earlier organizer added "→ never use as the answer", and the agent wired it into the checker as a reason to reject, without opening the source. The user: "Does it say it's always wrong?"
+43. **Moved the target and called it progress.** [4]
+    - What happened: After loosening three checker rules, the agent reran everything and reported "0 failures". The items themselves had not changed. The user: "Does zero machine-check failures mean anything for this job? You're just moving the target."
+44. **Piled constraints instead of setting the principle.** [8]
+    - What happened: For each defect it added another condition (per-type caps, length slots, matching the historical option sets). Matching historical sets alone would have made copying an item into variants impossible. The user: "Set the generation principle at the top level — why do you keep adding constraints?" · "It only has to hold as a question."
+45. **Forgot the runtime premise.** [0]
+    - What happened: The production generator is a model called once, with no context, on a minimal token budget. The agent built its runner around the agent tool it was working in. The user: "Does the generator run inside your coding tool?" · "Panel or service site, it has to work right with minimal tokens."
+46. **Broke a fresh correction minutes later.** [5-8]
+    - What happened: Told "stop burning tokens on subagents, read it yourself", the agent tried to launch subagents three more times that day. Told to answer in the user's language, it reported in another language within minutes. Told "listen to the end", it acted on the first line again.
+47. **Wrote the handover about itself.** [7]
+    - What happened: The first handover listed what it had deleted and fixed, with commit numbers, and left one removal "for the next agent to raise with the user". The user: "You write what others will read from your own point of view?" · "Write it so someone else can understand the situation without misreading it."
+

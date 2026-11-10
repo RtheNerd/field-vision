@@ -1,6 +1,6 @@
 {
   "name": "field-vision",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "Field Vision \u2014 Reads the whole field. Plays for the goal. No wasted runs. Working discipline that keeps an AI agent from getting buried in the task in front of it, losing sight of the project goal, or doing work nobody needs. Built from 596 real messages in which a user lost patience with their agents.",
   "author": {
     "name": "RXAI Creative"
